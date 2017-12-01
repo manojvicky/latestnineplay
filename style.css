@@ -1,0 +1,28 @@
+.adjust{
+  color: red;
+  float: left;
+  width: 30%;
+}
+li{
+  list-style: none;
+  float: left;
+}
+.lastbutton{
+  clear: both;
+  
+}
+
+.circlebutton{
+    border-radius: 10px;
+    background: blanchedalmond;
+    border-color: transparent;
+  
+}
+.circlebutton:hover {
+  background: brown;
+}
+input[type="button"]:disabled {
+
+    background: grey;
+    color: white;
+}
